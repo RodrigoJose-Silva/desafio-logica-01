@@ -1,16 +1,16 @@
 const { calcularDescontoDeUmPedido } = require('../src/calculoDesconto')
 
-const calcularDescontoDeUmPedidoComDeDezPorCentoDeDesconto = calcularDescontoDeUmPedido(100.00, 10.00);
+const calcularDescontoDeUmPedidoComDeDezPorCentoDeDesconto = (`O valor final do pedido com desconto de 10%, será de R$ ${(calcularDescontoDeUmPedido(100.00, 10.00))}.`);
 console.log(calcularDescontoDeUmPedidoComDeDezPorCentoDeDesconto);
 
-const calcularDescontoDeUmPedidoComVintePorCentoDeDesconto = calcularDescontoDeUmPedido(100.00, 20.00);
+const calcularDescontoDeUmPedidoComVintePorCentoDeDesconto = (`O valor final do pedido com desconto de 20%, será de R$ ${(calcularDescontoDeUmPedido(100.00, 20.00))}.`);
 console.log(calcularDescontoDeUmPedidoComVintePorCentoDeDesconto);
 
-const calcularDescontoDeUmPedidoComDeTrintaPorCentoDeDesconto = calcularDescontoDeUmPedido(100.00, 30.00);
+const calcularDescontoDeUmPedidoComDeTrintaPorCentoDeDesconto = (`O valor final do pedido com desconto de 30%, será de R$ ${(calcularDescontoDeUmPedido(100.00, 30.00))}.`);
 console.log(calcularDescontoDeUmPedidoComDeTrintaPorCentoDeDesconto);
 
-const calcularDescontoDeUmPedidoComDeQuarentePorCentoDeDesconto = calcularDescontoDeUmPedido(100.00, 40.00);
+const calcularDescontoDeUmPedidoComDeQuarentePorCentoDeDesconto = (`O valor final do pedido com desconto de 40%, será de R$ ${(calcularDescontoDeUmPedido(100.00, 40.00))}.`);
 console.log(calcularDescontoDeUmPedidoComDeQuarentePorCentoDeDesconto);
 
-const calcularDescontoDeUmPedidoComDeCinquentePorCentoDeDesconto = calcularDescontoDeUmPedido(100.00, 50.00);
+const calcularDescontoDeUmPedidoComDeCinquentePorCentoDeDesconto = (`O valor final do pedido com desconto de 50%, será de R$ ${(calcularDescontoDeUmPedido(100.00, 50.00))}.`);
 console.log(calcularDescontoDeUmPedidoComDeCinquentePorCentoDeDesconto);
